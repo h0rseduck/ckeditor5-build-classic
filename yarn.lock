@@ -185,13 +185,6 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@ckeditor/ckeditor5-adapter-ckfinder@^31.1.0":
-  version "31.1.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-adapter-ckfinder/-/ckeditor5-adapter-ckfinder-31.1.0.tgz#d21bcedaaa5039033916629dd469947f685e1486"
-  integrity sha512-KAXL4erWg9cL0+Xd4sBBSEQmbJERL5g0DsG/B1CB5bND6JRVPPzfpbQp7yAMK7xGdS5ObpmHhilHYW+/Ujl5jw==
-  dependencies:
-    ckeditor5 "^31.1.0"
-
 "@ckeditor/ckeditor5-autoformat@^31.1.0":
   version "31.1.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-autoformat/-/ckeditor5-autoformat-31.1.0.tgz#448e1318c427c9e8d418e8de80f0de8bdaec0800"
@@ -210,13 +203,6 @@
   version "31.1.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-block-quote/-/ckeditor5-block-quote-31.1.0.tgz#1ac6abdb7a3585430a52322fa3862ac4f9c63337"
   integrity sha512-rdnNUItJmPZV1ipgMIkDYE+AW+g4TXlp/d52bUzsq+uyDpDg3YIuu81NrKWDOEaV6LYOh+ePeSbkqQivsEIjeQ==
-  dependencies:
-    ckeditor5 "^31.1.0"
-
-"@ckeditor/ckeditor5-ckfinder@^31.1.0":
-  version "31.1.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ckfinder/-/ckeditor5-ckfinder-31.1.0.tgz#c9b83417e667f05f034d4af9fccd676f45614cf2"
-  integrity sha512-aFYWVbOabQ9p03E97QPV1t/mWla2rPA+9fXBIk4ug5+jcLOG6GNt+B/RTFG5QxxfgWJWh/I2C3UR82Ia8Kq29A==
   dependencies:
     ckeditor5 "^31.1.0"
 
@@ -299,13 +285,6 @@
     semver "^7.3.4"
     webpack-sources "^2.0.1"
 
-"@ckeditor/ckeditor5-easy-image@^31.1.0":
-  version "31.1.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-easy-image/-/ckeditor5-easy-image-31.1.0.tgz#adebd166b55d1588d62a806a6cb66d8b5cb29759"
-  integrity sha512-eS6VJw6b7baoS76m3oYpCmhjITKXYom5qAOOfvYyH0FOHLhU0iGJPj7Apy7NYNpj1/MlntBz5S3kz/j0HAbrtw==
-  dependencies:
-    ckeditor5 "^31.1.0"
-
 "@ckeditor/ckeditor5-editor-classic@^31.1.0":
   version "31.1.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-editor-classic/-/ckeditor5-editor-classic-31.1.0.tgz#82b10d6f4d15c9186029aabd1dbb157c7cd97b5f"
@@ -375,14 +354,6 @@
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-list/-/ckeditor5-list-31.1.0.tgz#0c8906ad30419c5f156c19b461555cdb8535637f"
   integrity sha512-/L/wsqeW4r7VF+HNDs58tXtSCIPODqlAJ82zMt3Pk5wx8BgXmFgguZ3RRZJdC3CyP6VZwfDMAzDNgU6H51+Tuw==
   dependencies:
-    ckeditor5 "^31.1.0"
-
-"@ckeditor/ckeditor5-media-embed@^31.1.0":
-  version "31.1.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-media-embed/-/ckeditor5-media-embed-31.1.0.tgz#7c4a0c672d9ae00272245f68d4aa0db21aaf1bf8"
-  integrity sha512-/MflPFvjWnbdL2Pv+MtgKQPubLYPdH/I2BUKQkRGPdFBhdfiC9fcZWC+JzGw+GQzs4jVcgjKrnaz0fGHlIpjtA==
-  dependencies:
-    "@ckeditor/ckeditor5-ui" "^31.1.0"
     ckeditor5 "^31.1.0"
 
 "@ckeditor/ckeditor5-paragraph@^31.1.0":
