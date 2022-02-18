@@ -31,6 +31,8 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting'
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
+import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
+import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -60,7 +62,9 @@ ClassicEditor.builtinPlugins = [
 	TableCellProperties,
 	TextTransformation,
 	SourceEditing,
-	SimpleUploadAdapter
+	SimpleUploadAdapter,
+	UploadAdapter,
+	CKFinder
 ];
 
 // Editor configuration.
