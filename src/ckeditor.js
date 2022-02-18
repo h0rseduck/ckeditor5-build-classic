@@ -38,6 +38,8 @@ export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
+	UploadAdapter,
+	CKFinder,
 	Essentials,
 	Autoformat,
 	Bold,
@@ -62,9 +64,7 @@ ClassicEditor.builtinPlugins = [
 	TableCellProperties,
 	TextTransformation,
 	SourceEditing,
-	SimpleUploadAdapter,
-	UploadAdapter,
-	CKFinder
+	SimpleUploadAdapter
 ];
 
 // Editor configuration.
