@@ -6,8 +6,6 @@
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
-import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
-import DecoupledEditor from '@ckeditor/ckeditor5-build-decoupled-document';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
@@ -31,14 +29,14 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
-import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting'
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
+import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
+import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
-	CKFinder,
-	DecoupledEditor,
 	Essentials,
 	Autoformat,
 	Bold,
@@ -62,7 +60,9 @@ ClassicEditor.builtinPlugins = [
 	TableProperties,
 	TableCellProperties,
 	TextTransformation,
-	SourceEditing
+	SourceEditing,
+	CKFinder,
+	UploadAdapter
 ];
 
 // Editor configuration.
